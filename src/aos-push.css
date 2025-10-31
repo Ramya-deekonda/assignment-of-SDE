@@ -1,0 +1,12 @@
+[data-aos="push-up"] {
+  transform: translateY(60px);
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-duration: 0.9s;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-aos="push-up"].aos-animate {
+  transform: translateY(0);
+  opacity: 1;
+}

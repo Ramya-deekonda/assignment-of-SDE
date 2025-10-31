@@ -4,16 +4,8 @@ import { BsListUl } from "react-icons/bs";
 
 const HeroSection = () => {
   return (
-    <div
-      className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 px-8 md:px-14 py-20 bg-[#f9faff] rounded-[2rem] shadow-[0_8px_25px_rgba(0,0,0,0.06)] mx-6 md:mx-14 my-12"
-      data-aos="fade-up"
-      data-aos-duration="600"
-    >
-      <div
-        className="max-w-md text-left -ml-4 md:-ml-8"
-        data-aos="fade-right"
-        data-aos-duration="600"
-      >
+    <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 px-8 md:px-14 py-20 bg-[#f9faff] rounded-[2rem] shadow-[0_8px_25px_rgba(0,0,0,0.06)] mx-6 md:mx-14 my-12">
+      <div className="max-w-md text-left -ml-4 md:-ml-8">
         <h1 className="font-extrabold text-[#1b1c48] text-[2.8rem] md:text-[3.3rem] leading-[1.1] font-['Poppins',sans-serif]">
           Stay motivated
         </h1>
@@ -27,12 +19,7 @@ const HeroSection = () => {
         </p>
       </div>
 
-      <div
-        className="relative"
-        data-aos="zoom-in-up"
-        data-aos-duration="600"
-        data-aos-delay="100"
-      >
+      <div className="relative">
         <div className="bg-[#f3f5fb] p-5 md:p-6 rounded-[2rem] shadow-[0_12px_25px_rgba(0,0,0,0.08)] w-[320px] md:w-[380px]">
           <div className="bg-white rounded-[1.6rem] p-6 shadow-[inset_0_2px_6px_rgba(0,0,0,0.05)] relative">
             <div className="absolute -top-5 left-6">

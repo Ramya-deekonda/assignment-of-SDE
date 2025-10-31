@@ -3,16 +3,8 @@ import { FaMicrophone } from "react-icons/fa";
 
 const BuildRelationship = () => {
   return (
-    <div
-      className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 px-6 md:px-12 py-10 bg-[#f9faff] rounded-[2rem] shadow-[0_4px_15px_rgba(0,0,0,0.04)] mx-6 md:mx-12 my-8"
-      data-aos="fade-up"
-      data-aos-duration="600"
-    >
-      <div
-        className="max-w-md text-left"
-        data-aos="fade-right"
-        data-aos-duration="600"
-      >
+    <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 px-6 md:px-12 py-10 bg-[#f9faff] rounded-[2rem] shadow-[0_4px_15px_rgba(0,0,0,0.04)] mx-6 md:mx-12 my-8">
+      <div className="max-w-md text-left">
         <h2 className="font-extrabold text-[#1b1c48] text-[2.3rem] md:text-[2.4rem] leading-tight font-['Poppins',sans-serif]">
           Build a relationship with your tutor
         </h2>
@@ -23,12 +15,7 @@ const BuildRelationship = () => {
         </p>
       </div>
 
-      <div
-        className="relative"
-        data-aos="zoom-in-up"
-        data-aos-duration="600"
-        data-aos-delay="100"
-      >
+      <div className="relative">
         <div className="bg-[#f3f5fb] aspect-square p-4 rounded-[1.6rem] shadow-[0_8px_20px_rgba(0,0,0,0.06)] w-[240px] md:w-[280px] flex items-center justify-center">
           <div className="bg-white rounded-[1.2rem] p-4 shadow-[inset_0_2px_5px_rgba(0,0,0,0.05)] w-full h-full flex flex-col justify-between">
             <div className="flex justify-between text-gray-400 text-[10px] mb-1 px-1">
